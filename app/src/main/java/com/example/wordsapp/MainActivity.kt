@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         // Sets the LinearLayoutManager of the recyclerview
         //recyclerView.layoutManager = LinearLayoutManager(this)
         chooseLayout()
-        recyclerView.adapter = LetterAdapter()
+        // recyclerView.adapter = LetterAdapter()
     }
     private fun chooseLayout() {
         if (isLinearLayoutManager) {
